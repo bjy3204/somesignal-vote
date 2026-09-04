@@ -13,15 +13,15 @@ function StartPage({ onStart }: StartPageProps) {
         {`
 @keyframes softGlowMove {
   0% {
-    transform: translate3d(-8%, -6%, 0) scale(1);
+    transform: translate3d(-5%, -4%, 0) scale(1);
   }
 
   50% {
-    transform: translate3d(8%, 5%, 0) scale(1.12);
+    transform: translate3d(5%, 3%, 0) scale(1.07);
   }
 
   100% {
-    transform: translate3d(-4%, 9%, 0) scale(1.05);
+    transform: translate3d(-3%, 6%, 0) scale(1.03);
   }
 }
         `}
@@ -46,11 +46,11 @@ function StartPage({ onStart }: StartPageProps) {
           style={{
             position: "absolute",
             inset: "-30%",
-            background:
-  "radial-gradient(circle at 25% 30%, rgba(255,176,192,0.22), transparent 34%), radial-gradient(circle at 75% 70%, rgba(178,125,255,0.14), transparent 38%)",
-filter: "blur(45px)",
+background:
+  "radial-gradient(circle at 25% 30%, rgba(255,176,192,0.18), transparent 36%), radial-gradient(circle at 75% 70%, rgba(178,125,255,0.12), transparent 40%)",
+filter: "blur(55px)",
 animation:
-  "softGlowMove 8s ease-in-out infinite alternate",
+  "softGlowMove 10s ease-in-out infinite alternate",
             pointerEvents: "none",
           }}
         />
@@ -93,9 +93,9 @@ animation:
               marginBottom: "36px",
             }}
           >
-            정확하고 빠른 매칭 결과를 위해
+            오늘의 만남을 떠올리며
             <br />
-            최종 선택을 완료해 주세요
+            마지막 선택을 완료해 주세요
           </p>
 
           <button
