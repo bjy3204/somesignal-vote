@@ -69,7 +69,7 @@ function PrivateMatchPage({
             letterSpacing: "2px",
           }}
         >
-          SOME SIGNAL
+          S♡ME SIGNAL
         </div>
 
         {/* STEP */}

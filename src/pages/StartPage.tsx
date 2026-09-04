@@ -36,7 +36,7 @@ function StartPage({ onStart }: StartPageProps) {
             letterSpacing: "2px",
           }}
         >
-          SOME SIGNAL
+          S♡ME SIGNAL
         </div>
 
         <h1

@@ -279,7 +279,7 @@ function VerifyPage({
               "2px",
           }}
         >
-          SOME SIGNAL
+          S♡ME SIGNAL
         </div>
 
         <div

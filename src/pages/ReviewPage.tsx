@@ -146,7 +146,7 @@ function ReviewPage({
               marginBottom: "22px",
             }}
           >
-            SOME SIGNAL
+            S♡ME SIGNAL
           </div>
 
           <div
@@ -222,7 +222,7 @@ function ReviewPage({
             letterSpacing: "2px",
           }}
         >
-          SOME SIGNAL
+          S♡ME SIGNAL
         </div>
 
         <div
